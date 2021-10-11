@@ -1,0 +1,58 @@
+[	
+	// Strategic resources
+	{
+		"name": "Horses",
+		"resourceType": "Luxury",
+		"revealedBy": "Animal Husbandry",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
+		"production": 1,
+		"improvement": "Pasture",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Iron",
+		"resourceType": "Luxury",
+		"revealedBy": "Iron Working",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Coal",
+		"resourceType": "Bonus",
+		"revealedBy": "Industrialization",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2}
+	},
+	{
+		"name": "Oil",
+		"resourceType": "Luxury",
+		"revealedBy": "Biology",
+		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
+		"production": 1,
+		"improvement": "Oil well",
+		"improvementStats": {"production": 3}
+	},
+	{
+		"name": "Aluminum",
+		"resourceType": "Bonus",
+		"revealedBy": "Electricity",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2}
+	},
+	{
+		"name": "Uranium",
+		"resourceType": "Bonus",
+		"revealedBy": "Atomic Theory",
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Marsh","Grassland"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 2}
+	},
+
+]
