@@ -1,0 +1,14 @@
+[
+	{
+	    "name":"Townie",
+        "food": 1,
+	   "gold":1,
+        "science":1,
+        "culture":1,
+        "production":1,
+        "happiness": 1,
+         "faith": 1,
+		"greatPersonPoints": {"Great Scientist":1, "Great Merchant":1, "Great Artist":1, "Great Engineer":1, "Great General":1, "Great Prophet":1},
+		"color": [255,215,0]
+	},
+]
