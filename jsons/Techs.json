@@ -1,0 +1,9 @@
+[
+			{
+				"name": "Future Tech",
+				"row": 5,
+				"prerequisites": ["Particle Physics", "Nuclear Fusion", "Nanotechnology", "Stealth"],
+				"uniques": ["Who knows what the future holds?","Free Great Person","Can be continually researched"],
+				"quote": "'I think we agree, the past is over.' - George W. Bush"
+			}
+]
