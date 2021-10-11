@@ -1,0 +1,215 @@
+[
+{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 2,
+     "production": 1,
+     "gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+			"[+1 Food] on [Fresh water] tiles once [Civil Service] is discovered",
+			"[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"food": 1,
+     "production": 2,
+     "gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": ["[+1 Production] once [Scientific Theory] is discovered"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+     "production": 2,
+     "gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] once [Chemistry] is discovered"],
+		"shortcutKey": "M"
+	},
+    {
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"food": 1,
+     "production": 1,
+     "gold": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["[+1 Gold] once [Economics] is discovered"],
+		"shortcutKey": "T"
+	},
+	// Resource-specific
+	{
+		"name": "Camp",
+     "food": 1,
+     "production": 1,
+     "gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"uniques": ["Does not need removal of [Forest]","[+1 Gold] once [Economics] is discovered"],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Oil well",
+     "food": 1,
+     "production": 1,
+     "gold": 1,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"turnsToBuild": 9,
+		"techRequired": "Biology",
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Pasture",
+     "food": 1,
+     "production": 1,
+     "gold": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Animal Husbandry",
+		"uniques": ["[+1 Food] once [Fertilizer] is discovered"],
+		"shortcutKey": "P"
+	},
+     {
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"food": 1,
+     "production": 1,
+     "gold": 2,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Food] once [Fertilizer] is discovered"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Quarry",
+     "food": 1,
+     "production": 1,
+     "gold": 1,
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": ["[+1 Production] once [Chemistry] is discovered"],
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+     "production": 1,
+     "gold": 2,
+		"techRequired": "Sailing",
+		"uniques": ["[+1 Gold] once [Compass] is discovered"]
+	},
+	{
+		"name": "Road",
+		"turnsToBuild": 4,
+     "production": 1,
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 4,
+      "production": 2,
+		"techRequired": "Railroads",
+		"uniques": ["Can be built outside your borders", "Costs [2] gold per turn when in your territory"],
+		"shortcutKey": "R",
+        "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
+	},
+	// Great Person improvements
+	{
+		"name": "Academy",
+		"science": 8,
+          "culture": 6,
+           "production": 4,
+           "gold": 4,
+		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered", "[+2 Science] once [Atomic Theory] is discovered", "[+1 Production] once [Chemistry] is discovered","[+1 Gold] once [Economics] is discovered","Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Can be built just outside your borders"]
+	},
+	{
+		"name": "Landmark",
+		"science": 8,
+          "culture": 6,
+           "production": 4,
+           "gold": 4,
+		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered", "[+2 Science] once [Atomic Theory] is discovered", "[+1 Production] once [Chemistry] is discovered","[+1 Gold] once [Economics] is discovered","Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Can be built just outside your borders"]
+	},
+	{
+		"name": "Manufactory",
+		"science": 8,
+          "culture": 6,
+           "production": 4,
+           "gold": 4,
+		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered", "[+2 Science] once [Atomic Theory] is discovered", "[+1 Production] once [Chemistry] is discovered","[+1 Gold] once [Economics] is discovered","Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Can be built just outside your borders"]
+	},
+	{
+		"name": "Customs house",
+		"science": 8,
+          "culture": 6,
+           "production": 4,
+           "gold": 4,
+		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered", "[+2 Science] once [Atomic Theory] is discovered", "[+1 Production] once [Chemistry] is discovered","[+1 Gold] once [Economics] is discovered","Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Can be built just outside your borders"]
+	},
+	{
+		"name": "Holy site",
+		"faith": 6,
+           "science": 8,
+          "culture": 6,
+           "production": 4,
+           "gold": 4,
+		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered", "[+2 Science] once [Atomic Theory] is discovered", "[+1 Production] once [Chemistry] is discovered","[+1 Gold] once [Economics] is discovered","Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Can be built just outside your borders"]
+	},
+	{
+		"name": "Citadel",
+          "science": 8,
+          "culture": 6,
+           "production": 4,
+           "gold": 4,
+		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered", "[+2 Science] once [Atomic Theory] is discovered", "[+1 Production] once [Chemistry] is discovered","[+1 Gold] once [Economics] is discovered","Gives a defensive bonus of [100]%", "Deal 30 damage to adjacent enemy units", "Can be built just outside your borders"],
+        "civilopediaText": [{"text":"Constructing it will take over the tiles around it and assign them to your closest city"}]
+	},
+
+	//Civilization unique improvements
+	{
+		"name": "Moai",
+		"uniqueTo": "Polynesia",
+		"culture": 2,
+		"turnsToBuild": 4,
+		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]", "[+1 Gold] once [Flight] is discovered"],
+		"techRequired": "Construction",
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Terrace farm",
+		"uniqueTo": "Inca",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 3,
+		"turnsToBuild": 7,
+		"uniques": ["Cannot be built on [Bonus resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] on [Fresh water] tiles once [Civil Service] is discovered",
+			"[+1 Food] on [non-fresh water] tiles once [Fertilizer] is discovered"],
+		"techRequired": "Construction",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Polder",
+		"uniqueTo": "The Netherlands",
+		"food": 5,
+		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
+		"turnsToBuild": 7,
+		"uniques": ["[+1 Production, +2 Gold] once [Economics] is discovered"],
+		"techRequired": "Guilds",
+		"shortcutKey": "F"
+	},
+]
