@@ -1,0 +1,226 @@
+[
+	{
+		"name": "Amphitheater",
+		"culture": 3,
+		"specialistSlots": {"Townie": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Burial Tomb",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Egypt",
+		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"culture": 2,
+		"happiness": 2,
+		"specialistSlots": {"Townie": 1},
+		"requiredBuilding": "Monument",
+		"hurryCostModifier": 25,
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Mud Pyramid Mosque",
+		"replaces": "Amphitheater",
+		"uniqueTo": "Songhai",
+		"maintenance": 0,
+		"specialistSlots": {"Townie": 1},
+		"hurryCostModifier": 25,
+		"culture": 4,
+		"requiredBuilding": "Monument",
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Market",
+		"gold": 2,
+		"specialistSlots": {"Townie": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Bazaar",
+		"replaces": "Market",
+		"uniqueTo": "Arabia",
+		"gold": 2,
+		"specialistSlots": {"Townie": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
+			"[+2 Gold] from [Oil] tiles in this city", "[+2 Gold] from [Oasis] tiles in this city"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Workshop", 
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Townie": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Longhouse",
+		"replaces": "Workshop",
+		"uniqueTo": "Iroquois",
+		"cost": 100,
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Townie": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] per [3] population [in this city]"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Townie": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] per [3] population [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Wat",
+		"replaces": "University",
+		"uniqueTo": "Siam",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Townie": 2},
+		"culture": 3,
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] per [3] population [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Opera House",
+		"culture": 4,
+		"specialistSlots": {"Townie": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics"
+	},
+	{
+		"name": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Townie": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Satrap's Court",
+		"replaces": "Bank",
+		"uniqueTo": "Persia",	
+		"gold": 2,
+		"specialistSlots": {"Townie": 1},
+		"happiness": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Hanse",
+		"replaces": "Bank",
+		"uniqueTo": "Germany",		
+		"gold": 2,
+		"specialistSlots": {"Townie": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+		// will be introduced in BNW expansion pack
+	},
+	{
+		"name": "Windmill",
+		"production": 2,
+		"specialistSlots": {"Townie": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Must not be on [Hill]", "+[10]% Production when constructing [Buildings] [in this city]"],
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "Museum",
+		"culture": 5,
+		"specialistSlots": {"Townie": 2},
+		"requiredBuilding": "Opera House",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Archaeology"
+	},
+	{
+		"name": "Public School",
+		"science": 3,
+		"specialistSlots": {"Townie": 1},
+		"requiredBuilding": "University",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Factory",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Townie": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+        //"requiredResource": "Null",
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Stock Exchange",
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Townie": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Research Lab",
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Townie": 1},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Solar Plant",
+		"production": 5,		
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 5,
+		"requiredTech": "Ecology",
+		"uniques": ["Must be next to [Desert]"]
+	},
+	{
+		"name": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 5,
+        //"requiredResource": "Null",
+		"requiredTech": "Nuclear Fission"
+	},
+	{
+		"name": "Spaceship Factory",
+		"production": 5,
+		"cost": 360,
+        //"requiredResource": "Null",
+		"requiredBuilding": "Factory",
+		"uniques": ["+[50]% Production when constructing [Spaceship part] [in this city]"],
+		"requiredTech": "Robotics"
+	},
+]
